@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LearningEnglish</string>
+    <string name="action_settings">Settings</string>
+    <string name="introduction">Learning English là một phần mềm dùng để học từ mới tiếng anh. Các từ mới được tổng hợp phân tích từ đó lựa ra các từ có tần suất sử dụng nhiều nhất </string>
+    <string name="mail">Nếu có bất kì câu hỏi và ý kiến đóng góp, vui lòng liên hệ email: \n kieuminhduc871995@gmail.com</string>
+</resources>

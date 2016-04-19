@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.kyoantrovice.learningenglish.MainPage"
+    tools:showIn="@layout/activity_main_page"
+    android:background="@drawable/background_mainpage"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Audio Lesson"
+        android:id="@+id/button"
+        android:background="@drawable/duongvien_goctron"
+        android:layout_marginTop="35dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Essential Words"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/duongvien_goctron"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Exercises"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/duongvien_goctron"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Game"
+        android:id="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/duongvien_goctron"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="FeedBack"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/duongvien_goctron"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
